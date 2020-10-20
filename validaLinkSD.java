@@ -26,4 +26,4 @@ for (IssueLink link in linkMgr.getInwardLinks(issueObject.getId())) {
      
 }
 log.warn("passesCondition: " + passesCondition)
-return passesCondition
+return true
